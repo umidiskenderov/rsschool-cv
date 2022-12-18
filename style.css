@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(00, 00, 00, 0.9);
+    color: white;
+}
+header{
+    text-align: center;
+}
+.nav-item{
+    padding: 10px;
+}
+.photo{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    padding-left: 430px;  
+    margin-top: 20px;
+ 
+}
+.photo-and-h1{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    background-color: rgb(31, 31, 31);;
+}
+.about{
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+}
+#skills{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+    list-style-position: inside;
+}
+.education{
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+    list-style-position: inside;
+}
+.code-example{
+    padding-left: 350px;
+    background-color: rgb(31, 31, 31); 
+}
+footer{
+    background-color: rgb(31, 31, 31); 
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding-left: 350px;
+}

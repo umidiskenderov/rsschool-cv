@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/rsschool-cv/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Curriculum vitae</title>
 </head>
 <body>
@@ -18,41 +18,59 @@
         </nav>
     </header>
     <main>
-        <img src="https://avatars.githubusercontent.com/u/88150125?s=400&u=7186d4150309dbb23d7d0a29246748e1fb6185d5&v=4" alt="photo">
-        <h1>Umid Iskenderov</h1>
-        <h2 class="job">English teacher</h2>
+        <div class="photo-and-h1">
+            <img class="photo" src="https://avatars.githubusercontent.com/u/88150125?s=400&u=7186d4150309dbb23d7d0a29246748e1fb6185d5&v=4" alt="photo">
+            <div>
+                <h1>Umid Iskenderov</h1>
+                <h2 class="job">English teacher</h2>
+                <section id="contact">
+                    <h2 class="contact">Contacts</h2>
+                    <ul>
+                        <li>Phone number: +998 99 960 01 26</li>
+                        <li>E-mail: i.umid0126@gmail.com</li>
+                        <li>Telegram: @umidiskenderov</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
         <section id="about">
-            <h2 class="about">About me</h2>
-            <p class="about">My full name is Umid iskenderov and I am 20 years old. I was born in Urgench(a city in Khorezm region, Uzbekista) and grew up there.
-                I graduated Presidential School in Kviha in 2021 and currently I am studying at Tashkent State University of Economics,
-                it is my 2nd year there. I have always been interested in IT and my friend who has successfully completed the course which
+            <div class="about">
+                <h2 class="about">About me</h2>
+                <p class="about">My full name is Umid iskenderov and I am 20 years old. I was born in Urgench(a city in Khorezm region, Uzbekista) and grew up there. <br>
+                I graduated Presidential School in Kviha in 2021 and currently I am studying at Tashkent State University of Economics, <br>
+                it is my 2nd year there. I have always been interested in IT and my friend who has successfully completed the course which <br>
                 which RS-School is offering recommended to try this course. My goal is to work as a Front-End Developer.</p>
+            </div>
         </section>
         <section id="education">
-            <h2 class="education">Education</h2>
-            <ul class="education">
-                <li>2021 Presidential School in Khiva</li>
-                <li>2021-present Tashkent State University of Economics</li>
-                <li><a href="https://www.coursera.org/">Python for everybody</a></li>
-                <li><a href="https://www.freecodecamp.org/">FreeCodeCamp HTML5</a></li>
-            </ul>
+            <div class="education">
+                <h2 class="education">Education</h2>
+                <ul class="education">
+                    <li>2021 Presidential School in Khiva</li>
+                    <li>2021-present Tashkent State University of Economics</li>
+                    <li><a href="https://www.coursera.org/">Python for everybody</a></li>
+                    <li><a href="https://www.freecodecamp.org/">FreeCodeCamp HTML5</a></li>
+                </ul>
+            </div>  
         </section>
         <section id="code-example">
-            <h2 class="code-example">Code Example</h2>
-            <pre>
-                Calculating factarial of N number in Python:
+            <div class="code-example">
+                <h2 class="code-example">Code Example</h2>
+                <pre>
+                    Calculating factarial of N number in Python:
 
-                a=int(input('We can calculate n!, please enter the n '))
-                def Factorial():
-                    Product = 1
-                    n=2
-                    while n<=a:
-                        Product=Product*n
-                        n=n+1
-                    return Product
-                b= Factorial()        
-                print(b)
-            </pre>
+                    a=int(input('We can calculate n!, please enter the n '))
+                    def Factorial():
+                        Product = 1
+                        n=2
+                        while n<=a:
+                            Product=Product*n
+                            n=n+1
+                        return Product
+                    b= Factorial()        
+                    print(b)
+                </pre>
+            </div>
         </section>
         <section id="skills">
             <div class="hard-skills">
@@ -76,15 +94,8 @@
                 <h2>English level: <br> C1</h2>
             </div>
         </section>
-        <section id="contact">
-            <h2 class="contact">Contacts</h2>
-            <ul>
-                <li>Phone number: +998 99 960 01 26</li>
-                <li>E-mail: i.umid0126@gmail.com</li>
-                <li>Telegram: @umidiskenderov</li>
-            </ul>
-        </section>
     </main>
+    <br>
     <footer>
         <a href="https://github.com/umidiskenderov"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="50px" height="50px"></a>
         <h3>2022</h3>
